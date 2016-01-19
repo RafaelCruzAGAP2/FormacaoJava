@@ -14,7 +14,7 @@ public class ShoppingCart {
 	 */
 	public void addProduct(Product product) {
 		// total = total + product.price;
-//		for (int i = 0; i < products.length; i++) {
+//		for (i nt i = 0; i < products.length; i++) {
 //			if(products[i] != null)
 //				continue;
 //			products[i] = product;
