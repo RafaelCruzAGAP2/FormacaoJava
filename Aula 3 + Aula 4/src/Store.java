@@ -3,7 +3,7 @@ public class Store {
 
 	public static void main(String[] args) {
 		Customer customer = new Customer();
-		customer.name = "Rafael";
+		customer.setName("Rafael");
 		
 		Product p1 = new Product();
 		p1.id = 1;
@@ -28,9 +28,9 @@ public class Store {
 		shoppingCart.addProduct(p2);
 		shoppingCart.addProduct(p3);
 		System.out.println("Total: " + shoppingCart.total);
-		System.out.println("Customer Name: " + customer.name);
-		shoppingCart.customer.name = "Eu";
-		System.out.println("Shopping Cart Customer: " + shoppingCart.customer.name);
+		System.out.println("Customer Name: " + customer.getName());
+		shoppingCart.customer.setName("Eu");
+		System.out.println("Shopping Cart Customer: " + shoppingCart.customer.getName());
 		
 		
 		shoppingCart.removeProduct(p1.id);

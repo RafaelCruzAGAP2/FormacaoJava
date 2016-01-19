@@ -4,7 +4,7 @@ public class ShoppingCart {
 	 * Attributes
 	 */
 	float total;
-	boolean finish;
+	private boolean finish;
 	Customer customer;
 	Product[] products;
 	int cartSize;
@@ -34,8 +34,10 @@ public class ShoppingCart {
 	
 	public void removeProduct(int id) {
 		for (int i = 0; i < products.length; i++) {
+			if(products[i]!=null){
 			if(products[i].id == id) {
 				products[i] = null;
+			}
 			}
 		}
 	}
@@ -51,7 +53,7 @@ public class ShoppingCart {
 	public void printProducts() {
 		for (int i = 0; i < products.length; i++) {
 			if(products[i]!=null){
-				System.out.println(products[i].id);	
+				System.out.println("Produtos: "+products[i].id);	
 			}
 			
 		}
