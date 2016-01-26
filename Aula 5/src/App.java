@@ -17,6 +17,7 @@ public class App {
 				System.out.println(str);
 			}
 		}
+		
 		{
 			int i = 0;
 			do {
