@@ -50,7 +50,7 @@ public class Arrays {
 		 * Desenho no caderno
 		 */
 		
-		String[][][] strings3d = new String[2][3][2];
+		String[][][] strings3d = new String[2][3][2]; //Referencia um obj.
 		strings3d[0][0][0] = "Olá";
 		strings3d[0][2][1] = "Mundo";
 		strings3d[0][1][1] = "Rafael";

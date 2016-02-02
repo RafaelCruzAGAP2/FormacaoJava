@@ -16,7 +16,7 @@ public class App {
 			for (String str : args) {
 				System.out.println(str);
 			}
-		}
+		} 
 		
 		{
 			int i = 0;
