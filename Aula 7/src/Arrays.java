@@ -22,7 +22,7 @@ public class Arrays {
 		// Outra forma de inicializar o array
 		int[] numbers2 = {1, 2, 3, 4};
 		display(numbers2);
-		
+		 
 		String[] strings = new String[4];
 		
 		String[] strings2 = {"Ola", "Adeus", " ", "buh"};
